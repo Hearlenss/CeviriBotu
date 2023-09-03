@@ -1,7 +1,7 @@
                                               Metin Çeviri Botu 1.0 Discord
 
 # Gerekli Modüller
-pip3 install discord.py
+pip3 install discord.pyn ,, 
 pip3 install googletrans==4.0.0-rc1
 
 
