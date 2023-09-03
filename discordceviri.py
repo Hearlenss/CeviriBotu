@@ -42,8 +42,4 @@ async def yardim(ctx):
     
     await ctx.send(help_message)
 
-bot.run("MTA0NzE2NzAxNDIwMTk5NTI3Ng.GlNNgM.B1iXbnlRe0bA2KNcepL3wxj4S2zaLTeBRheYWs")
-
-
-
-#   MTA0NzE2NzAxNDIwMTk5NTI3Ng.GlNNgM.B1iXbnlRe0bA2KNcepL3wxj4S2zaLTeBRheYWs
+bot.run("TOKEN")
