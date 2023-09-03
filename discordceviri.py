@@ -12,7 +12,7 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name="THT"))  #bot durum
     print(f'Hazırız {bot.user.name}')#başlayınca alıcağınız mesaj
 
-@bot.command() #comut ekliyoz ilk bölüm ceviri
+@bot.command() #komut ekliyoruz ilk bölüm ceviri
 async def ceviri(ctx, source_lang, target_lang, *, text):
     try:
         ceviri = Translator()
@@ -43,3 +43,4 @@ async def yardim(ctx):
     await ctx.send(help_message)
 
 bot.run("TOKEN")
+#Medusayoshi
